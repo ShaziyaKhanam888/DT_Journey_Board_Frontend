@@ -3,7 +3,7 @@
 This project is a frontend implementation of the DT Journey Board assignment using **HTML, CSS, and Vanilla JavaScript**.  
 The UI is dynamically rendered using data fetched from a JSON file.
 
----
+ Check here : https://dt-frontend.netlify.app/
 
 ## 🔧 Tech Stack
 - HTML5
