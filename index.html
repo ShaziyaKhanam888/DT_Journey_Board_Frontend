@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DT-Jouney Board</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="main-container">
+      <!-- Top Navbar -->
+      <div id="nav-bar">
+        <div class="logo-title">
+          <img src="assets/images/logo.svg" alt="Deep Thought Logo" />
+        </div>
+        <nav>
+          <ul>
+            <li><i class="fa-solid fa-house"></i></li>
+            <li><i class="fa-solid fa-binoculars"></i></li>
+            <li><i class="fa-regular fa-lightbulb"></i></li>
+            <li><i class="fa-solid fa-screwdriver-wrench"></i></li>
+            <li><i class="fa-regular fa-user"></i></li>
+            <li><i class="fa-regular fa-bell"></i></li>
+            <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="body-wrapper">
+        <!-- Left Sidebar -->
+        <aside id="sidebar" class="collapsed">
+          <div class="sidebar-toggle">
+            <i class="fa-solid fa-arrow-right" id="toggle-arrow"></i>
+          </div>
+          <!-- sidebar content hidden by default -->
+          <div class="journey-board">
+            <h3>Journey Board</h3>
+
+            <ul class="jb-list">
+              <li data-type="all">
+                <strong>Explore the world of management</strong>
+              </li>
+              <li data-type="video">Technical Project Management</li>
+              <li data-type="threadbuilder">Threadbuild</li>
+              <li data-type="article">Structure your Pointers</li>
+              <li data-type="4sa">4SA Method</li>
+            </ul>
+          </div>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main>
+          <div id="main-content">
+            <div class="content-header">
+              <h1 id="page-title">Technical Project Management</h1>
+              <button class="submit-btn">Submit Task</button>
+            </div>
+
+            <h1 class="task-title"></h1>
+            <p class="task-desc"></p>
+
+            <div class="asset-grid">
+              <!-- asset cards here -->
+            </div>
+          </div>
+        </main>
+
+        <!-- RIGHT NOTICE BOARD -->
+        <div id="notice-board">
+          <div class="notice-header">
+            <i class="fa-solid fa-xmark cross"></i>
+            <span>Notice</span>
+            <span>Board</span>
+          </div>
+
+          <div class="notice-icons">
+            <div class="round-icon">
+              <i class="fa-solid fa-question"></i>
+            </div>
+            <div class="round-icon">
+              <i class="fa-solid fa-people-carry-box"></i>
+            </div>
+            <div class="round-icon"><i class="fa-solid fa-calendar"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
